@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+}
+
+.wd-main-content {
+    margin-left: 16px;
+    margin-right: 16px;
+    border-color: rgb(47, 51, 54);
+    border-width: 1px;
+    border-style: solid;
+}
+
+.wd-row {
+    margin: 5px 10px;
+}
+
+.wd-search {
+    border-radius: 15px;
+    background-color: darkgray;
+    color: white;
+    width: 80%;
+    height: 25px;
+    padding-left: 15px;
+}
+
+.wd-settings-icon {
+    float: right;
+    color: blue;
+    font-size: 30px;
+    margin-right: 12px;
+    text-decoration: none;
+    position: relative;
+    bottom: 5px;
+}
+
+.wd-tabs {
+    display: inline;
+    border-bottom-color: rgb(110, 118, 125);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    padding: 16px;
+    font-size: 15px;
+}
+
+.wd-tab {
+    color: rgb(110, 118, 125);
+    display: inline;
+    padding: 16px;
+}
+
+.wd-tab-selected {
+    color: rgb(29, 161, 242);
+    border-bottom-color: rgb(29, 161, 242);
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    padding-bottom: 16px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+
