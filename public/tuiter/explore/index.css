@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    font-family: Arial;
 }
 
 .wd-main-content {
@@ -12,14 +13,19 @@ body {
 
 .wd-row {
     margin: 5px 10px;
+    border-bottom-color: rgb(47, 51, 54);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
 }
 
 .wd-search {
     border-radius: 15px;
-    background-color: darkgray;
+    background-color: rgb(33, 35, 39);
+    border-color: none;
     color: white;
     width: 80%;
     height: 25px;
+    margin-left: 20px;
     padding-left: 15px;
 }
 
@@ -33,11 +39,15 @@ body {
     bottom: 5px;
 }
 
-.wd-tabs {
-    display: inline;
+.wd-tabs-container {
+    padding: 16px;
     border-bottom-color: rgb(110, 118, 125);
     border-bottom-width: 1px;
     border-bottom-style: solid;
+}
+
+.wd-tabs {
+    display: inline;
     padding: 16px;
     font-size: 15px;
 }
@@ -56,6 +66,56 @@ body {
     padding-bottom: 16px;
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
+}
+
+.wd-suggested-content {
+    padding: 15px;
+}
+
+.wd-trending-topic > p {
+    margin: 0;
+    text-size: 13px;
+    color: rgb(110, 118, 125);
+
+}
+
+.wd-trending-topic, .wd-trending-post > h3 {
+    margin: 10px 0px;
+    color: white;
+}
+
+.wd-trending-post {
+    height: 100px;
+}
+
+.wd-trending-post-header-img {
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 4px;
+}
+
+.wd-trending-post-header > h4 {
+    display: inline;
+    color: white;
+}
+
+.wd-trending-post-header > p {
+    display: inline;
+    color: rgb(110, 118, 125);
+}
+
+
+.wd-trending-post-img-content {
+    float: right;
+    margin-right: 16px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 70px;
+    object-fit: cover;
 }
 
 
