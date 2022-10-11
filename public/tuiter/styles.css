@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    font-family: Arial;
+}
+
+.wd-main-content {
+    margin-left: 16px;
+    margin-right: 16px;
+    border-color: rgb(47, 51, 54);
+    border-width: 1px;
+    border-style: solid;
+}
+
+.wd-row {
+    margin: 5px 10px;
+    border-bottom-color: rgb(47, 51, 54);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
