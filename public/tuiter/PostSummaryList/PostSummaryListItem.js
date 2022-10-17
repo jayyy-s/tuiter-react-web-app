@@ -1,5 +1,5 @@
 const PostSummaryListItem = (post) => {
-    let tweets = post.tweets + 'Tuits';
+    let tweets = post.tweets + ' Tuits';
     if (post.tweets === undefined) {
         tweets = '';
     }
