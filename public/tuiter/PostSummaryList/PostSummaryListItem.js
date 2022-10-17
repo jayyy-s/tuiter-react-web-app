@@ -1,4 +1,8 @@
 const PostSummaryListItem = (post) => {
+    let tweets = post.tweets + 'Tuits';
+    if (post.tweets === undefined) {
+        tweets = '';
+    }
     return (`
         <li class="list-group-item">
             <div class="row">
@@ -16,6 +20,11 @@ const PostSummaryListItem = (post) => {
                     <div class="row">
                         <div class="fw-bold">
                             ${post.title}
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="text-secondary">
+                            ${tweets}
                         </div>
                     </div>
                 </div>
