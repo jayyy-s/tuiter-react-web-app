@@ -97,4 +97,22 @@
     object-fit: cover;
 }
 
+.wd-icon-resize {
+    font-size: 0.6em;
+}
+
+.wd-check-resize {
+    font-size: 0.4em;
+}
+
+.wd-img-circle {
+    height: 47px;
+    width: 47px;
+    object-fit: cover;
+}
+
+.wd-nudge-up {
+    margin-top: -1px;
+}
+
 
