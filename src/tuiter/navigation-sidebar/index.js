@@ -10,7 +10,7 @@ const NavigationSidebar = (
             <a href="/" className="list-group-item">
                 <span className="d-none d-xl-inline">Tuiter</span>
             </a>
-            <a href="/" className={`list-group-item ${active === 'home' ? 'active' : ''}`}>
+            <a href="home" className={`list-group-item ${active === 'home' ? 'active' : ''}`}>
                 <i className="fa fa-home"></i>
                 <span className="d-none d-xl-inline"> Home</span>
             </a>
