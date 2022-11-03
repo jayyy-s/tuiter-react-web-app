@@ -9,6 +9,7 @@ import {Provider} from "react-redux";
 import {configureStore} from "@reduxjs/toolkit";
 import {useLocation, useParams} from "react-router";
 import Home from "./home";
+import HomeComponent from "./home";
 
 const store = configureStore({
     reducer: {
@@ -24,7 +25,7 @@ function Tuiter() {
     let activeComponent = <ExploreComponent/>
 
     if (active === 'home') {
-        activeComponent = <Home/>
+        activeComponent = <HomeComponent/>
     }
     return (
         <Provider store={store}>
