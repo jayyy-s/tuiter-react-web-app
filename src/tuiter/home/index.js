@@ -1,4 +1,3 @@
-import {useSelector} from "react-redux";
 import React from "react";
 import TuitsList from "./tuis-list";
 import WhatsHappening from "./whats-happening";
