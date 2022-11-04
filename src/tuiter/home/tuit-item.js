@@ -31,7 +31,8 @@ const TuitItem = ({
                 <div className="row">
                     <div className="col-1">
                         <img className="wd-profile-picture"
-                             src={`/images/${tuit.image}`}/>
+                             src={`/images/${tuit.image}`}
+                             alt={`/images/java_logo.png`}/>
                     </div>
                     <div className="col-11">
                         <div className="wd-bookmark-main-content col-12">

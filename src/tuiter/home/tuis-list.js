@@ -1,5 +1,4 @@
 import {useSelector} from "react-redux";
-import PostSummaryItem from "../post-summary-list/post-summary-item";
 import React from "react";
 import TuitItem from "./tuit-item";
 
