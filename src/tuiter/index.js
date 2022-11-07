@@ -7,8 +7,7 @@ import whoReducer from "./reducers/who-reducer";
 import tuitsReducer from "./tuits/tuits-reducer";
 import {Provider} from "react-redux";
 import {configureStore} from "@reduxjs/toolkit";
-import {useLocation, useParams} from "react-router";
-import Home from "./home";
+import {useLocation} from "react-router";
 import HomeComponent from "./home";
 
 const store = configureStore({
