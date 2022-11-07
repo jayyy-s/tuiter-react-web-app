@@ -14,7 +14,7 @@ const NavigationSidebar = (
                 <i className="fa fa-home"></i>
                 <span className="d-none d-xl-inline"> Home</span>
             </a>
-            <a href="/tuiter" className={`list-group-item ${active === '' ? 'active' : ''}`}>
+            <a href="/tuiter/" className={`list-group-item ${active === '' || active === null ? 'active' : ''}`}>
                 <i className="fa fa-hashtag"></i>
                 <span className="d-none d-xl-inline"> Explore</span>
             </a>
