@@ -2,15 +2,19 @@
 <html lang="en">
 <head>
     <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-    <link href="../../vendors/bootswatch/bootstrap.min.css" rel="stylesheet"/>
-    <link href="index.css" rel="stylesheet"/>
+    <!--    <link href="../../vendors/bootswatch/bootstrap.min.css" rel="stylesheet"/>-->
+    <link href="../explore/index.css" rel="stylesheet"/>
     <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
     <script src="../../vendors/jquery/jquery-3.6.0.min.js"></script>
     <meta charset="UTF-8">
-    <title>Explore screen</title>
+    <title>Navigation Sidebar</title>
 </head>
 <body>
-<div class="container py-4" id="wd-explore"></div>
-<script src="index.js" type="module"></script>
+<div>
+
+</div>
+<script src="index.js" type="module">
+    $("div").append('${NavigationSidebar()}');
+</script>
 </body>
 </html>
