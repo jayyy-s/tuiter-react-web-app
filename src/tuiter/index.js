@@ -13,6 +13,7 @@ import HomeComponent from "./home";
 const store = configureStore({
     reducer: {
         who: whoReducer,
+        tuitsData: tuitsReducer,
         tuits: tuitsReducer,
     }
 });
