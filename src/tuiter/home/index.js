@@ -1,5 +1,5 @@
 import React from "react";
-import TuitsList from "./tuis-list";
+import TuitsList from "./tuits-list";
 import WhatsHappening from "./whats-happening";
 
 
