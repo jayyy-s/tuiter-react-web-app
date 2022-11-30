@@ -22,7 +22,6 @@ const TuitItem = ({
                           "dislikes": 0,
                       }
                   }) => {
-    console.log(tuit);
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
         dispatch(deleteTuitThunk(id));
